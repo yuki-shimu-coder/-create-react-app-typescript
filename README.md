@@ -18,7 +18,7 @@ docker compose build
 React, TypeScriptでプロジェクトを作成
 
 ```
-docker-compose run --rm frontend sh -c 'npx create-react-app frontend --template typescript'
+docker compose run --rm frontend sh -c 'npx create-react-app frontend --template typescript'
 ```
 
 プロジェクトを作成したら、下記コマンドでDockerコンテナを起動してください
